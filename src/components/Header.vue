@@ -1,22 +1,20 @@
 <template>
-  <header id="header">
+  <div class="parent">
     <h1>YUUTA SAKAMOTO</h1>
-  </header>
+  </div>
 </template>
 
 <style scoped>
-header {
+.parent {
   height: 100px;
-  background-color: #42b983;
-  color: white;
-  position: relative;
-}
-
-h1 {
-  text-align: center;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  position: absolute;
+  text-align: center;
+  color: white;
+  background-color: #42b983;
+}
+.parent h1 {
+  line-height: 100px;
+  font-weight: normal;
+  letter-spacing: 10px;
 }
 </style>
