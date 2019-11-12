@@ -11,7 +11,6 @@
           情報科学系大学院生です．
           <br />現在は機械学習を用いた医療・介護に関する研究をしています．
         </p>
-ß
         <div class="float-left">
           <span class="badge badge-pill badge-info">Python</span>
           <span class="badge badge-pill badge-info">C++</span>
@@ -28,6 +27,5 @@
 .name {
   padding-top: 10px;
   font-size: 24px;
-  letter-spacing: 10px;
 }
 </style>

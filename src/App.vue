@@ -3,10 +3,10 @@
     <Header />
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4">
+        <div class="col-sm">
           <SideComp />
         </div>
-        <div class="col-8">
+        <div class="col-sm">
           <div class="row">
             test
           </div>
