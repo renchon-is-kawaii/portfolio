@@ -1,5 +1,5 @@
 <template>
-  <div class="comp1">
+  <div class="side_comp">
     <div class="card">
       <div class="card-body">
         <img src="../assets/profile.jpg" alt class="img-fluid rounded" />

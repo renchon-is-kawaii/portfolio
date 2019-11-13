@@ -8,27 +8,30 @@
         </div>
         <div class="col-sm">
           <div class="row">
-            test
+            <Comp1 />
           </div>
           <div class="row">
-            dayo
+            <Comp2 />
           </div>
         </div>
       </div>
     </div>
-    <router-view />
   </div>
 </template>
 <script>
 import Header from './components/Header'
 import SideComp from './components/SideComp'
+import Comp1 from './components/Comp1'
+import Comp2 from './components/Comp2'
 import './font/css/open-iconic-bootstrap.css'
 
 export default {
   name: 'App',
   components: {
     Header,
-    SideComp
+    SideComp,
+    Comp1,
+    Comp2
   }
 }
 </script>
