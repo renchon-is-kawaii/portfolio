@@ -3,7 +3,7 @@
     <Header />
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm-3">
           <SideComp />
         </div>
         <div class="col-sm">
@@ -19,10 +19,10 @@
     <router-view />
   </div>
 </template>
-
 <script>
 import Header from './components/Header'
 import SideComp from './components/SideComp'
+import './font/css/open-iconic-bootstrap.css'
 
 export default {
   name: 'App',

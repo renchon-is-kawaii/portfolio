@@ -1,6 +1,6 @@
 <template>
   <div class="parent">
-    <h1>YUUTA SAKAMOTO</h1>
+    <h1>Portfolio</h1>
   </div>
 </template>
 
@@ -15,6 +15,7 @@
 .parent h1 {
   line-height: 100px;
   font-weight: normal;
+  font-size: 30px;
   letter-spacing: 10px;
 }
 </style>
